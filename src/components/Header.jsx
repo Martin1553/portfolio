@@ -77,7 +77,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="fixed top-16 left-0 w-full z-50 flex items-center justify-center bg-transparent">
+    <header className="fixed top-24 md:top-16 left-0 w-full z-50 flex items-center justify-center bg-transparent">
       <FloatingDock
         mobileClassName="translate-y-4" // un poquito de separación abajo en mobile
         items={links}
