@@ -4,7 +4,7 @@ import { TextAnimate } from "../components/magicui/components/text-animate";
 
 export default function Hero() {
     return (
-        <section className="relative w-full h-screen overflow-hidden mx-auto">
+        <section className="relative w-full h-screen bg-black overflow-hidden mx-auto">
             <Vortex
                 backgroundColor="black"
                 className="flex flex-col items-center justify-center px-4 md:px-10 py-8 w-full h-full"
