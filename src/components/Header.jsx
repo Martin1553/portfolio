@@ -56,7 +56,8 @@ export default function Header() {
       icon: (
         <IconCloudDownload className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "/public/Martín Di Paola - Full Stack Web Developer.pdf",
+      href: "/Martin Di Paola - Full Stack Web Developer.pdf",
+      download: true
     },
     {
       isSeparator: true, // lo usaremos para detectar que esto no es un ítem "normal"
